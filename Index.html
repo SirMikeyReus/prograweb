@@ -1,0 +1,186 @@
+<html>
+	<head>
+		
+		<title>Great Red </title>
+		<style>
+			header{
+   			 position: fixed;
+    			width: 100%;
+    			height: 70px;  
+    			background-color: #F7F9FA;
+			}
+			nav{
+   			 max-width: 1024px;
+   			 margin: 0 auto;
+			}		
+			header img{
+  			  padding: 18px 10px;
+			}
+			nav ul {
+   				 list-style-type: none
+			}
+			nav li{
+    			list-style-type: none;
+   			 display: inline;
+			}
+			nav li a{
+    				font-size: 1em;
+    				text-decoration: none;
+    				line-height: 70px;
+   				 padding: 15px 10px;
+    				color: black;
+    				background-color: white;
+    				border: 1px solid grey;
+			}
+
+			
+		</style>
+			<nav >
+     				 <a href="index.html"><img src="upiicsa.png" alt="Eniun logo" width="200" height="100"></a>
+      				<ul>
+          				<li><a href="index.html">Inicio</a></li>
+	  				<li><a href="Quienessomos.html">  	Quienes Somos		</a></li>
+          				<li><a href="guias.html">		Guias		</a></li>
+          				<li><a href="#">		Servicios		</a></li>
+          				<li><a href="#">		Cuentas		</a></li>
+      				</ul>
+   			</nav>
+		
+
+	</head>
+	
+	<body background="fondo.JPG" id="fondo">
+
+
+		<style>
+		#fondo {
+			background-color: rgb(128, 128, 128)
+			
+			}
+		#mi-pagina {
+			background-color: rgb(0, 128, 128)
+			}
+			.img-container {
+			text-align: center;
+			}
+		</style>
+		     <script>
+				var opc=0
+				
+				var opc= parseInt(prompt("Elegir una opcion donde (1 EUW 2 NA 3 LAN 4 LAS 5 Salir):"));
+					switch(opc){
+						case 1:
+							alert("Usted selecciono la opcion de servidor EUW");
+						break;
+						case 2:
+							alert("Usted selecciono la opcion de servidor NA");
+						break;
+		
+						case 3:
+							alert("Usted selecciono la opcion de servidor LAN");
+						break;
+		
+						case 4:
+							alert("Usted selecciono la opcion de servidor LAS");
+						break;
+						
+						case 5:
+							alert("Usted selecciono la opcion de salir");
+						break;
+						default: 
+						alert("la opcion que selecciono no es valida")
+		
+							}
+					
+		
+		</script>
+		<div class="img-container">
+			
+				<img src="GODS.JPEG", width="400" height="200" />
+				<div id="mi-pagina">
+			
+				<a href="https://www.youtube.com/watch?v=C3GouGa0noM"><p>Escucha la nueva cancion del videojuego famoso League of Legends</p>
+				</a>
+		</div>	
+	
+		<div class="img-container">
+			
+			<img src="servidor.jpg", width="400" height="200" />
+		<div id="mi-pagina" >
+	<a href="Seleccion de server.html"><p>Selecciona tu servidor</p>
+	</a>	
+		</div>
+		<div class="img-container">
+			
+				<img src="control.JPG", width="400" height="200" />
+			<div id="mi-pagina" >
+		<a href="https://www.youtube.com/watch?v=zUngFuw2U9g"><p>Mira un video sobre control de oleadas</p>
+		</a>	
+			</div>
+		</div>
+		<div>
+		<div class="img-container">
+			
+				<img src="adc.JPG", width="400" height="200" />
+				<div id="mi-pagina">
+			
+				<a href="https://www.op.gg/champions?region=global&tier=emerald_plus&position=adc"><p>Tier List de campeones adc</p>
+				</a>
+		</div>		
+		<div class="img-container">
+			
+				<img src="mid.JPG", width="400" height="200" />
+				<div id="mi-pagina">
+			
+				<a href="https://www.op.gg/champions?region=global&tier=emerald_plus&position=mid"><p>Tier List de campeones adc</p>
+				</a>
+		</div>	
+		<div class="img-container">
+			
+				<img src="top.JPG", width="400" height="200" />
+				<div id="mi-pagina">
+			
+				<a href="https://www.op.gg/champions?region=global&tier=emerald_plus&position=top"><p>Tier List de campeones adc</p>
+				</a>
+		</div>	
+		<div class="img-container">
+			
+				<img src="jg.JFIF", width="400" height="200" />
+				<div id="mi-pagina">
+			
+				<a href="https://www.op.gg/champions?region=global&tier=emerald_plus&position=jungle"><p>Tier List de campeones adc</p>
+				</a>
+		</div>	
+		<div class="img-container">
+			
+				<img src="supp.JFIF", width="400" height="200" />
+				<div id="mi-pagina">
+			
+				<a href="https://www.op.gg/champions?region=global&tier=emerald_plus&position=support"><p>Tier List de campeones adc</p>
+				</a>
+		</div>	
+
+		<form method='POST'>
+			<fieldset style="background: #f6f8ff; border: 2px solid #4238ca,">
+			<legend><br></br>Feedback / Comentarios</legend>
+			<div class="form-group">
+				<label for="nombre">Nombre</label>
+				<input type="text" class="form-control" name='nombre' id="nombre" placeholder="nombre...">
+			</div>
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" class="form-control" name='email' id="email" placeholder="email...">
+			</div>
+			<div class="form-group">
+				<label for="exampleTextarea">Mensaje</label>
+				<textarea class="form-control" name='mensaje' id="mensaje" rows="3"></textarea>
+			</div>
+			<div class="form-group">
+				<input type="checkbox" required> Acepto la politica de privacidad.
+			</div>
+			<button class="btn btn-primary" type="submit">Enviar</button>
+		</form>
+	
+	</body>
+
+</html>
